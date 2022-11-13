@@ -1,0 +1,108 @@
+body {
+	background-image: url(images/background-image.jpg);
+	color: black; 
+	font-family: helvetica;
+	font-size: 22px;
+	font-weight:lighter;
+}
+
+h2,h3 {
+	font-family: 'Bebas Neue', cursive;;
+}
+
+h1 {
+	font-family: 'Rubik Dirt', cursive;;
+	color : black;
+	font-size: 50px;
+}
+
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 40px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: pink;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+}
+
+/* Custom design with class */
+
+.card-white{
+	background-color: white;
+	padding:  40px;
+	margin: 90px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	text-align: center;
+}
+
+@media (max-width : 500px) {
+	.card-white{
+		width: 600px;
+	}
+}
+
+
+#img-circle {
+	width: 400px;
+	border-radius: 360px;
+	border:10px solid pink ;
+
+}
+
+.btn-blue{
+	background-color: hotpink;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-yellow{
+	background-color: #e38a01;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: whitesmoke;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 10px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: hotpink;
+}
+
+.list-inline i:hover{
+	color: black;
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
